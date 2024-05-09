@@ -20,6 +20,13 @@
 2. Execute `java -jar BoletoJava-0.0.1-SNAPSHOT.jar` para iniciar a aplicação.
 3. A aplicação estará disponível em `http://localhost:8080`.
 
+### Como construir e executar usando Docker
+
+1. Certifique-se de que o Docker esteja instalado em sua máquina.
+2. Construa a imagem Docker executando `docker build -t boletojava .` na raiz do projeto.
+3. Execute a aplicação usando `docker run -p 8080:8080 boletojava`.
+4. A aplicação estará disponível em `http://localhost:8080`.
+
 ## API Endpoints
 
 A aplicação suporta as seguintes operações CRUD através de APIs RESTful:
